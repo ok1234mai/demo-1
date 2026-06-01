@@ -13,6 +13,22 @@ npm install
 npm run dev
 ```
 
+## Deploy to GitHub Pages
+
+This repo is configured for GitHub Pages deployment from GitHub Actions.
+
+Expected Pages URL:
+
+```text
+https://ok1234mai.github.io/demo-1/
+```
+
+In GitHub:
+
+1. Open `Settings` -> `Pages`
+2. Set `Source` to `GitHub Actions`
+3. Push to `main` and wait for the `Deploy to GitHub Pages` workflow to finish
+
 ## Demo behavior
 
 - Uses local mock data only
